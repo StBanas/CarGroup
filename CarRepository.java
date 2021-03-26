@@ -8,7 +8,7 @@ public class CarRepository {
         ArrayList<Car> cars = new ArrayList<>();
         cars.add(new Car("Mercedes",  "White"));
         cars.add(new Car("Audi",  "Blue"));
-        cars.add(new Car("BMW",  "Black"));
+//        cars.add(new Car("BMW",  "Black"));
         cars.add(new Car("Ford",  "Yellow"));
         cars.add(new Car("Honda",  "Silver")); cars.add(new Car("Mercedes",  "White"));
         cars.add(new Car("Opel",  "Blue"));
