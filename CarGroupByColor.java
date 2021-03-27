@@ -2,20 +2,19 @@ package pbc.car;
 
 import com.sun.tools.javac.comp.Todo;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+
+//Tworzymy mapę złożona z klucza (KeyColorRepository) oraz wartość z listy (ValueCarRepository) za
+//pomocą metody CarGroupByColor
 
 public class CarGroups {
     //TODO
     // To create fields
     Car car;
-    List<Car> cars;
+    ArrayList<Colors> colors;
 
-    //Ustalamy klucze  :
-    // z listy samochodów za pomocą .stream filtrujemy te samochody, których wartośc parametru color ma odpowiedni kolor.
-    //listę kolorów ustalamy filtrując strumień mapy i zapisując wszystkie wystepujące kolory do listy kolorów
-
-    // tworzymy w pętli for:color, listaColorów grupy
 
 }
 //TODO :

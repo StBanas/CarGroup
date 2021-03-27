@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static pbc.car.CarRepository.getCarList;
+import static pbc.car.ValueCarRepository.getCarList;
 
 public class CarTest {
 
@@ -30,7 +30,7 @@ public class CarTest {
 
     @Test
     private void CheckListOfCarsInGroupOfBlack() {
-        assertEquals("Audi", getCarList().);
+        assertEquals("Audi", getCarList().stream().allMatch(Car.));
         assertEquals(["Ford", "Ferrari"],getCarList().  );
     }
 }

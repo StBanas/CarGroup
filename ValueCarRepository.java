@@ -2,8 +2,7 @@ package pbc.car;
 
 import java.util.ArrayList;
 
-public class CarRepository {
-
+public class ValueCarRepository {
     public static ArrayList getCarList(){
         ArrayList<Car> cars = new ArrayList<>();
         cars.add(new Car("Mercedes",  "White"));
