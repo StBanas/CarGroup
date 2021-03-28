@@ -3,30 +3,43 @@ package pbc.car;
 import com.sun.tools.javac.comp.Todo;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+
+import static pbc.car.CarRepository.getCarList;
 
 //Tworzymy mapę złożona z klucza (KeyColorRepository) oraz wartość z listy (ValueCarRepository) za
 //pomocą metody CarGroupByColor
 
-public class CarGroups {
+public class CarGroupByColor {
     //TODO
     // To create fields
-    Car car;
-    ArrayList<Colors> colors;
+    ArrayList<Car> cars;
 
 
 }
 //TODO :
 //to create method
+    LinkedList<> colors = new LinkedList<Colors>();
+    public static Map<String, List<Car>> groupByColor(LinkedList<Colors>, ArrayList<Cars> car.brand ) {
 
-    public static Map<String, List<Car>> group() {
-        for i in List. :
+        for (cars: getCarList()) {
+            cars.getColor()
+                    if (color in colors
+
+
+        }
+
+{
+
+
         if
+
 
     }
 
-    for cars: getCarList()
-
     public Map<>
+
+    return groupsByColor;
 }
