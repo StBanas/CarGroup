@@ -18,7 +18,7 @@ public class KeyColorRepository {
     for( car: List<Car>){
     List<Car> colors = CarRepository.getCarList()
             .stream()
-            .filter(s ->s.getColor()="White" )
+            .filter(s ->s.getColor() )
 
             .collect(Collectors.toList());
 
