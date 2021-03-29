@@ -10,3 +10,8 @@ public String color;
 
 Chcemy aby metoda grupowała listę samochodów po kolorze i zwracała Mapę której kluczami są kolory samochodów,
 a wartościami listy samochodów o danym kolorze.
+
+Mówiąc prosto chcemy mapę:
+
+Map< Car.color, ArrayList<Car>> gropusByColor = group.stream()...
+

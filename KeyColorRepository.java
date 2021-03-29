@@ -14,18 +14,15 @@ public class KeyColorRepository {
     //skatalogować wszystkie wystepujące kolory.
 
     // tworzymy w pętli for:color, listaColorów grupy
-    public static LinkedList<> createColorList(ArrayList<CarRepository>)  {
-    for( car: List<Car>){
-    List<Car> colors = CarRepository.getCarList()
-            .stream()
-            .filter(s ->s.getColor() )
+    public static ArrayList<String> createColorList(ArrayList<CarRepository>)  {
+    for ( car: List<Car>) {
+        List<Car> colors =
+                .stream()
+                .filter(s -> CarRepository.getCarList().)
 
-            .collect(Collectors.toList());
+                .collect(Collectors.toList());
+    }
 
 
 }
 
-public class PrintOutColors{
-
-//System.out.println(colors.toString());
-}

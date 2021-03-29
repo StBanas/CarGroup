@@ -21,25 +21,8 @@ public class CarGroupByColor {
 }
 //TODO :
 //to create method
-    LinkedList<> colors = new LinkedList<Colors>();
-    public static Map<String, List<Car>> groupByColor(LinkedList<Colors>, ArrayList<Cars> car.brand ) {
-
-        for (cars: getCarList()) {
-            cars.getColor()
-                    if (color in colors
-
-
-        }
-
-{
-
-
-        if
-
-
-    }
-
-    public Map<>
+    List<String> colors = new ArrayList<>();
+    Map<String, List<Car>> groupByColor(Car.getColor(), ArrayList<Cars> car.brand )= {
 
     return groupsByColor;
 }
